@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://www.10wallpaper.com/wallpaper/1280x1024/1911/Joker_2019_Joaquin_Phoenix_Game_HD_Poster_1280x1024.jpg");
+
+}
+
+.clock{
+    background: linear-gradient(to right, rgb(255, 255, 255) 20%, #65c7f7 40%, #0052D4 60%, #fff 80%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 2s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 90px;
+    font-family: 'Black Ops One', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    letter-spacing: 7px;
+    
+}
+
+@keyframes animate{
+    to{
+        background-position: 200% center;
+    }
+}
